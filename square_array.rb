@@ -1,3 +1,6 @@
 def square_array(array)
-  # your code here
-end
+  changed = []
+  array.each {|element|
+    changed << element ** 2}
+  changed
+  end
